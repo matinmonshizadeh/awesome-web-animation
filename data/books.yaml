@@ -1,5 +1,23 @@
 ---
 all:
+  - googleBookId: AnimationAtWork
+    title: Animation at Work
+    authors:
+      - Rachel Nabors
+    publishedDate: '2017-08-22'
+    pageCount: 80
+    publisher: A Book Apart
+    language: en
+    categories:
+      - Web
+      - Animation
+    cover: data/covers/animation-at-work.jpg
+    previewLink: https://abookapart.com/products/animation-at-work.html
+    description: >
+      Animation isn’t merely decorative—it’s an invaluable tool for creating a better web.
+      Start with science: by understanding the human visual processing system, you can design
+      delightful animation that works to ease cognitive load. Rachel Nabors guides you through
+      the anatomy of web animations, patterns, and communication decisions across teams.
   - googleBookId: 92ZiDgAAQBAJ
     title: SVG Animations
     subtitle: From Common UX Implementations to Complex Responsive Animation

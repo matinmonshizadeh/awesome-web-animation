@@ -10,7 +10,7 @@ test.describe('books', () => {
     const cards = page.getByTestId('book-card');
     await expect(cards).toHaveCount(catalog.books);
 
-    const card = cards.first();
+    const card = cards.filter({ has: page.getByRole('heading', { name: 'SVG Animations', exact: true }) });
     await expect(card.locator('h3')).toHaveText('SVG Animations');
     await expect(card).toContainText('Sarah Drasner');
     await expect(card).toContainText('2017-03-17');
